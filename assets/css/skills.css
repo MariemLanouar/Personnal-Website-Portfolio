@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Playfair Display", serif;
+
+}
+body, main{
+    background-color: #E9EAEF;
+    height: 350vh;
+    overflow-x: hidden;
+}
+nav{
+  padding: 20px;
+  width: 100%;
+}
+nav img
+{
+  float: right;
+  margin: 50px;
+  cursor: pointer;
+  width: 37px;
+}
+#close
+{
+  margin: 20px;
+  float: right;
+  color: #000;
+  transform: rotate(45deg);
+  font-size: 20px;
+  cursor: pointer;
+}
+#menu li a{
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin: 5px 0px;
+  transition: all 0.3s ease;
+}
+#menu
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  list-style: none;
+  text-align: center;
+  opacity: 0;
+  transition: all 1s ease;
+}
+#containerr
+{
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  background: #e9eaefcc;
+  text-align: center;
+  transition: all 0.6s ease;
+  z-index: 2;
+}
+#menu li a:hover
+{
+  background-color: #3e5879c8;
+  color: #fff;
+}
+h1{
+  margin: 3rem;
+}
+.skillsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+    padding: 10px 20px;
+  }
+  .rightRow{
+    margin-top: 120px;
+  }
+  
+  .skillBox {
+    padding: 15px;
+    border-radius: 10px;
+    width: 95%;
+    height: 30%;
+    margin-bottom: 35px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    
+  }
+  .skillBox h3 {
+    margin-bottom: 10px; 
+}
+.skillBox ul {
+    list-style: none; 
+    padding: 0; 
+}
+.skillBox ul li {
+    margin: 5px 0; 
+}
+  .leftRow .skillBox:nth-child(1) {
+    background-color: #EDCEC9; 
+  }
+  
+  .leftRow .skillBox:nth-child(2) {
+    background-color: #E2D1BF; 
+  }
+  
+  .leftRow .skillBox:nth-child(3) {
+    background-color: #F0EADC; 
+  }
+  
+  .leftRow .skillBox:nth-child(4) {
+    background-color: #C4C8D1; 
+  }
+  .leftRow .skillBox:nth-child(5) {
+    background-color: #E9E5E4; 
+  }
+  
+  .leftRow .skillBox:nth-child(6) {
+    background-color: #C4926F; 
+  }
+  .rightRow .skillBox:nth-child(7) {
+    background-color: #CACDD4; 
+  }
+  .rightRow .skillBox:nth-child(1) {
+    background-color: #987861; 
+  }
+  
+  .rightRow .skillBox:nth-child(2) {
+    background-color: #91A5BE; 
+  }
+  
+  .rightRow .skillBox:nth-child(3) {
+    background-color: #D9D3C5; 
+  }
+  
+  .rightRow .skillBox:nth-child(4) {
+    background-color: #BFA89C; 
+  }
+  .rightRow .skillBox:nth-child(5) {
+    background-color: #E9C9CE; 
+  }
+  
+  .rightRow .skillBox:nth-child(6) {
+    background-color: #987861; 
+  }
+
+@keyframes appear{
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+  footer{
+    background-color: #111;
+  }
+  .footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+  }
+  .socialIcons{
+    display: flex;
+    justify-content: center;
+  }
+  .socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .socialIcons a img{
+    font-size: 2em;
+    
+    opacity: 0,9;
+  }
+  
+  .socialIcons a:hover{
+    background-color: #987861;
+    transition: 0.5s;
+  }
+  .socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+  }
+  .footerNav{
+    margin: 30px 0;
+  }
+  .footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  .footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+  
+  }
+  .footerNav ul li a:hover{
+    opacity: 1;
+  }
+  .footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+  }
+  .footerBottom p{
+    color: white;
+  }
+  .designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+  }
+     
